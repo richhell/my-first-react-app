@@ -9,8 +9,8 @@ export default function Book({ book }) {
         {book?.title}
       </p>
       <div className="btn-group">
-        <Button variant="secondary">
-          {book.completed ? "Undo" : "Complete"}
+        <Button variant="warning">
+          {book.completed ? "Read" : "Unread"}
         </Button>
         <Button variant="danger">Delete</Button>
       </div>

@@ -1,4 +1,4 @@
-export const defaultBooks = [
+export const listOfBooks = [
     {
       id: 1,
       title: "Entitlement",
@@ -21,7 +21,7 @@ export const defaultBooks = [
     },
     {
       id: 5,
-      title: "The Wide Sargasso Sea",
+      title: "Wide Sargasso Sea",
       completed: false,
     },
     {
