@@ -9,8 +9,9 @@ export default function Book({ book }) {
         {book?.title}
       </p>
       <div className="btn-group">
-        <Button variant="warning">
+        <Button variant="warning" onClick={() => console.log("Read/Unread")}>
           {book.completed ? "Read" : "Unread"}
+          
         </Button>
         <Button variant="danger">Delete</Button>
       </div>

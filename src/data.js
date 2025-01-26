@@ -27,6 +27,6 @@ export const listOfBooks = [
     {
       id: 6,
       title: "A Wizard of Earthsea",
-      completed: false,
+      completed: true,
     },
   ];
