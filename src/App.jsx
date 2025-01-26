@@ -1,4 +1,3 @@
-import Button from 'react-bootstrap/Button';
 import Stack from 'react-bootstrap/Stack';
 
 import './App.css';
@@ -12,14 +11,14 @@ function App() {
 
   return (
     <Stack gap={2}>
-      <div className="p-2">
+      <div className="title p-2">
         <h1>Book List for 2025</h1>
       </div>
       <div className="p-2">
         <AddBook />
       </div>
       <div className="p-2">
-        <p>Current List of Books to Read in 2025</p>
+        <h5>Current List of Books to Read in 2025</h5>
         <BookList books={listOfBooks} />
       </div>
   </Stack>

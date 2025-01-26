@@ -1,9 +1,5 @@
-.container {
-  width: 100vw;
-  height: 100vh;
-}
 
-.container h1 {
+.title h1 {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 25px;
 }
